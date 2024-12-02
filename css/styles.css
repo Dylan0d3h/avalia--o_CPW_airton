@@ -49,9 +49,16 @@ body {
 }
 
 #content span {
-    color: rgb(66, 96, 122);
+    color: rgb(171, 206, 238);
     font-size: larger;
     padding-bottom: 30px;
+    justify-items:flex-start ;
+}
+
+#content p {
+    color: rgb(171, 206, 238);
+    font-size: larger;
+    justify-items:flex-start ;
 }
 
 #contatos {
@@ -64,11 +71,11 @@ body {
 }
 
 #contatos span {
-    color: rgb(156, 48, 165);
+    color: rgb(250, 197, 255);
 }
 
 #contatos ul {
-    color: rgb(156, 48, 165);
+    color: rgb(244, 171, 251);
     list-style: none;
     padding: 0;
     cursor: pointer;
