@@ -1,0 +1,134 @@
+html {
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0%;
+}
+
+#logo img {
+    display: flex;
+    align-items: center;
+    margin: auto auto;
+    padding: 50px;
+    height: 250px;
+    width: 600px;
+}
+
+.header {
+    width: 100%;
+    height: 400px;
+    background-image: url('../img/montanhas.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+#inf {
+    text-align: center;
+    background-color: var(--inform-color);
+    padding: 10px;
+    color: rgb(155, 176, 241);
+    border: 5px solid rgb(28, 16, 54);
+
+}
+
+#main {
+    display: flex;
+}
+
+#content {
+    background-color:#4b1b82;
+    width: 80%;
+    padding: 30px 20px;
+    margin: 0;
+
+
+}
+
+#content span {
+    color: rgb(66, 96, 122);
+    font-size: larger;
+    padding-bottom: 30px;
+}
+
+#contatos {
+    background-image: url(../img/fundo12345.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 20%;
+    padding: 30px 10px;
+}
+
+#contatos span {
+    color: rgb(156, 48, 165);
+}
+
+#contatos ul {
+    color: rgb(156, 48, 165);
+    list-style: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+#contatos li:hover {
+    color: #180430;
+}
+
+#atts1 ,#atts2 ,#atts3 {
+    display: flex;
+}
+
+
+.artes1 {
+    background-color: #402361;
+    width: 70%;
+    margin: 50px auto;
+    display: flex;
+    padding: 40px;
+}
+
+.artes2 {
+    background-color: #402361;
+    width: 70%;
+    margin: 50px auto;
+    display: flex;
+    padding: 40px;
+}
+
+.artes3 {
+    background-color: #402361;
+    width: 70%;
+    margin: 50px auto;
+    display: flex;
+    padding: 40px;
+}
+
+.artes1 img {
+    width: 400px;
+    height: 400px;
+}
+
+.artes2 img {
+    width: 500px;
+    height: 400px;
+}
+
+.artes3 {
+    width: 600px;
+    height: 500px;
+}
+
+footer {
+    background-color: rgb(43, 15, 69);
+    padding: 40px 20px;
+}
+
+footer span {
+    color: rgb(220, 168, 219);
+    font-family: "regular";
+    font-size: 1rem;
+}
