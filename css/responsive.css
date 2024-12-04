@@ -1,11 +1,167 @@
-@media screen and (max-width: 640px) {
+@media (max-width: 768px) {
+
+    #logo img {
+        height: 100px;
+        width: 270px;
+        padding: 40px;
+        align-items: center;
+    }
+
+    .header {
+        height: 170px;
+        width: auto;
+    }
+
+    #inf {
+        width: auto;
+        padding: 5px;
+        font-size: 14px;
+    }
+
+    #inf span {
+        font-size: 14px;
+    }
+
+    #main {
+        flex-direction: column;
+    }
+
+    #contatos {
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    #contatos ul, span {
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
 
 
+    #content {
+        width: 100%;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    #content p {
+        font-size: 16px;
+        padding: 5px;
+        justify-items: flex-start;
+    }
+
+    
+    .artes1, .artes2 {
+        width: 150px;
+        height: 150px;
+        padding: 0;
+        border: #402361 solid 10px;
+    
+    }
+
+    .artes3 {
+        width: 150px;
+        height: 200px;
+        padding: 0;
+        border: #402361 solid 10px;
+    }
+
+    .artes1 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .artes2 img {
+        width: 150px;
+        height: auto;
+    }
+
+    .artes3 img {
+        width: 100%;
+        height: auto;
+    }
+
+    footer {
+        padding: 40px 10px;
+    }
+
+    footer span {
+        font-size: 14px;
+    }
 }
 
 
+@media (max-width: 1024px) and (min-width: 600px) {
+    #logo img {
+        height: 200px;
+        width: 480px;
+        padding-top: 40px;
+    }
 
-@media screen and (max-width: 768px) {
+    .header {
+        height: 300px;
+    }
 
-    
+    #inf {
+        height: 30px;
+        border: 8px solid rgb(28, 16, 54);
+    }
+
+    #inf span {
+        padding: 5px;
+    }
+
+    #main {
+        flex-direction: column;
+    }
+
+    #content {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #content p {
+        font-size: 20px;
+        padding: 20px;
+        justify-items: flex-start;
+    }
+
+    #contatos {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #contatos ul, span {
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        cursor: pointer;
+    }
+
+    .artes1, .artes2, .artes3 {
+        width: 90%;
+        margin: 30px auto;
+    }
+
+    .artes1 img, .artes2 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .artes3 img {
+        width: 100%;
+        height: auto;
+    }
+
+    footer {
+        padding: 40px 20px;
+    }
+
+    footer span {
+        font-size: 16px;
+    }
 }
